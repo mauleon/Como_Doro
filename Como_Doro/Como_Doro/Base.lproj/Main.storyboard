@@ -17,10 +17,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="COMO DORO" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KcL-gc-leH">
-                                <rect key="frame" x="142" y="15" width="317" height="44"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="headTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XiG-tF-lDR">
+                                <rect key="frame" x="157" y="161" width="286" height="68"/>
                                 <animations/>
-                                <fontDescription key="fontDescription" type="italicSystem" pointSize="32"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="34"/>
+                                <size key="titleShadowOffset" width="2.2250738585072014e-308" height="0.0"/>
+                                <state key="normal" title="Iniciar Como Doro">
+                                    <color key="titleColor" red="0.015879159793257713" green="0.0077398088760674" blue="0.011830550618469715" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="COMO DORO" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KcL-gc-leH">
+                                <rect key="frame" x="131" y="17" width="339" height="44"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="36"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -28,14 +38,112 @@
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="XiG-tF-lDR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0eD-TF-vnb"/>
                             <constraint firstItem="KcL-gc-leH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Tdk-dK-WQh"/>
                             <constraint firstItem="KcL-gc-leH" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-261.5" id="dB0-0F-OCh"/>
+                            <constraint firstItem="XiG-tF-lDR" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-105" id="pJ4-FP-dgd"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="311" y="397"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="RKX-oU-Z7h">
+            <objects>
+                <viewController id="q1R-Gv-VZC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gk3-or-GYW"/>
+                        <viewControllerLayoutGuide type="bottom" id="ecA-gN-isE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="GIj-U7-XVt">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="COMO DORO" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3zb-D1-hgN">
+                                <rect key="frame" x="131" y="17" width="339" height="44"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="Arial-ItalicMT" family="Arial" pointSize="36"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gtq-G7-AyZ">
+                                <rect key="frame" x="36" y="28" width="46" height="30"/>
+                                <animations/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="15"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Atras">
+                                    <color key="titleColor" red="0.019695334136486053" green="0.015599826350808144" blue="0.019717775285243988" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="68M-Po-94e">
+                                <rect key="frame" x="179" y="372" width="242" height="84"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="Arial-ItalicMT" family="Arial" pointSize="37"/>
+                                <state key="normal" title="OCIO">
+                                    <color key="titleColor" red="0.015879159793257713" green="0.0077398088760674" blue="0.011830550618469715" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6dh-mb-x41">
+                                <rect key="frame" x="179" y="208" width="242" height="64"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="Arial-ItalicMT" family="Arial" pointSize="37"/>
+                                <state key="normal" title="TRABAJAR">
+                                    <color key="titleColor" red="0.030891461297869682" green="0.046886056661605835" blue="0.059404440224170685" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="3zb-D1-hgN" firstAttribute="centerX" secondItem="GIj-U7-XVt" secondAttribute="centerX" id="9pU-ha-dZk"/>
+                            <constraint firstItem="3zb-D1-hgN" firstAttribute="centerY" secondItem="GIj-U7-XVt" secondAttribute="centerY" constant="-261" id="Ly2-TQ-6Xm"/>
+                            <constraint firstItem="6dh-mb-x41" firstAttribute="centerY" secondItem="GIj-U7-XVt" secondAttribute="centerY" constant="-60" id="cYg-mZ-ta7"/>
+                            <constraint firstItem="6dh-mb-x41" firstAttribute="centerX" secondItem="GIj-U7-XVt" secondAttribute="centerX" id="dKW-I1-t6r"/>
+                            <constraint firstItem="68M-Po-94e" firstAttribute="centerX" secondItem="GIj-U7-XVt" secondAttribute="centerX" id="fZf-Se-gGn"/>
+                            <constraint firstItem="68M-Po-94e" firstAttribute="centerY" secondItem="GIj-U7-XVt" secondAttribute="centerY" constant="114" id="gvr-kl-tzc"/>
+                            <constraint firstItem="6dh-mb-x41" firstAttribute="centerY" secondItem="GIj-U7-XVt" secondAttribute="centerY" constant="-60" id="qRf-bN-N0W"/>
+                            <constraint firstItem="6dh-mb-x41" firstAttribute="centerX" secondItem="GIj-U7-XVt" secondAttribute="centerX" id="sTd-kw-hXX"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0M4-h8-wi2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="959" y="397"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ToM-zx-2NI">
+            <objects>
+                <viewController id="BKm-2G-32o" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="MUo-Tn-uWi"/>
+                        <viewControllerLayoutGuide type="bottom" id="xoy-fH-0av"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="4Rx-Oa-BJs">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="COMO DORO" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qbe-3x-uzz">
+                                <rect key="frame" x="131" y="20" width="339" height="44"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="Arial-ItalicMT" family="Arial" pointSize="36"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="qbe-3x-uzz" firstAttribute="centerX" secondItem="4Rx-Oa-BJs" secondAttribute="centerX" id="ODk-zE-Itg"/>
+                            <constraint firstItem="qbe-3x-uzz" firstAttribute="centerY" secondItem="4Rx-Oa-BJs" secondAttribute="centerY" constant="-258" id="spx-UJ-YQo"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3mb-HB-a6U" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1626" y="397"/>
         </scene>
     </scenes>
 </document>

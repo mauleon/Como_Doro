@@ -14,6 +14,7 @@
 		FF32ABF61C233962005DBEA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF32ABF41C233962005DBEA7 /* LaunchScreen.storyboard */; };
 		FF32AC011C233962005DBEA7 /* Como_DoroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF32AC001C233962005DBEA7 /* Como_DoroTests.swift */; };
 		FF32AC0C1C233962005DBEA7 /* Como_DoroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF32AC0B1C233962005DBEA7 /* Como_DoroUITests.swift */; };
+		FF32AC1A1C23578F005DBEA7 /* Seleccion.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF32AC191C23578F005DBEA7 /* Seleccion.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		FF32AC071C233962005DBEA7 /* Como_DoroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Como_DoroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF32AC0B1C233962005DBEA7 /* Como_DoroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Como_DoroUITests.swift; sourceTree = "<group>"; };
 		FF32AC0D1C233962005DBEA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF32AC191C23578F005DBEA7 /* Seleccion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Seleccion.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		FF32ABEA1C233962005DBEA7 /* Como_Doro */ = {
 			isa = PBXGroup;
 			children = (
+				FF32AC191C23578F005DBEA7 /* Seleccion.swift */,
 				FF32ABEB1C233962005DBEA7 /* AppDelegate.swift */,
 				FF32ABED1C233962005DBEA7 /* ViewController.swift */,
 				FF32ABEF1C233962005DBEA7 /* Main.storyboard */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF32ABEE1C233962005DBEA7 /* ViewController.swift in Sources */,
+				FF32AC1A1C23578F005DBEA7 /* Seleccion.swift in Sources */,
 				FF32ABEC1C233962005DBEA7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -484,6 +488,7 @@
 				FF32AC121C233962005DBEA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FF32AC131C233962005DBEA7 /* Build configuration list for PBXNativeTarget "Como_DoroTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +497,7 @@
 				FF32AC151C233962005DBEA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FF32AC161C233962005DBEA7 /* Build configuration list for PBXNativeTarget "Como_DoroUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +506,7 @@
 				FF32AC181C233962005DBEA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
