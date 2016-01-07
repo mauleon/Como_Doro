@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -17,42 +18,114 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="headTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XiG-tF-lDR">
-                                <rect key="frame" x="157" y="161" width="286" height="68"/>
-                                <animations/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="COMO DORO" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KcL-gc-leH">
+                                <rect key="frame" x="143" y="39" width="339" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="41" id="9FI-Hn-nBQ"/>
+                                    <constraint firstAttribute="width" constant="339" id="Wvq-yF-cGK"/>
+                                    <constraint firstAttribute="width" constant="339" id="jcj-1m-UVL"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="36"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="9FI-Hn-nBQ"/>
+                                        <exclude reference="Wvq-yF-cGK"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular" misplaced="YES">
+                                    <rect key="frame" x="186" y="118" width="230" height="41"/>
+                                </variation>
+                                <variation key="heightClass=compact-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="9FI-Hn-nBQ"/>
+                                        <include reference="Wvq-yF-cGK"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="headTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XiG-tF-lDR">
+                                <rect key="frame" x="175" y="189" width="274" height="50"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Uk2-no-yZA"/>
+                                    <constraint firstAttribute="width" constant="304" id="alz-6B-IlD"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="34"/>
                                 <size key="titleShadowOffset" width="2.2250738585072014e-308" height="0.0"/>
                                 <state key="normal" title="Iniciar Como Doro">
                                     <color key="titleColor" red="0.015879159793257713" green="0.0077398088760674" blue="0.011830550618469715" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="Uk2-no-yZA"/>
+                                        <exclude reference="alz-6B-IlD"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=compact-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="Uk2-no-yZA"/>
+                                        <include reference="alz-6B-IlD"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <segue destination="q1R-Gv-VZC" kind="show" id="Ol3-tT-D8T"/>
+                                </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="COMO DORO" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KcL-gc-leH">
-                                <rect key="frame" x="131" y="17" width="339" height="44"/>
-                                <animations/>
-                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="36"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
-                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="XiG-tF-lDR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0eD-TF-vnb"/>
-                            <constraint firstItem="KcL-gc-leH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Tdk-dK-WQh"/>
-                            <constraint firstItem="KcL-gc-leH" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-261.5" id="dB0-0F-OCh"/>
-                            <constraint firstItem="XiG-tF-lDR" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-105" id="pJ4-FP-dgd"/>
+                            <constraint firstItem="KcL-gc-leH" firstAttribute="centerX" secondItem="XiG-tF-lDR" secondAttribute="centerX" id="0Ni-L1-98P"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="KcL-gc-leH" secondAttribute="trailing" constant="10" id="0gw-1z-mbK"/>
+                            <constraint firstItem="KcL-gc-leH" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="19" id="7Vj-41-ucr"/>
+                            <constraint firstItem="KcL-gc-leH" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="11" id="AxB-8B-dbM"/>
+                            <constraint firstItem="KcL-gc-leH" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="28" id="GNW-eg-VxR"/>
+                            <constraint firstItem="XiG-tF-lDR" firstAttribute="width" secondItem="KcL-gc-leH" secondAttribute="width" id="HCB-gU-Vzn">
+                                <variation key="heightClass=compact-widthClass=compact" constant="-35"/>
+                            </constraint>
+                            <constraint firstAttribute="trailingMargin" secondItem="XiG-tF-lDR" secondAttribute="trailing" constant="28" id="Kkk-o9-FXJ"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="XiG-tF-lDR" secondAttribute="bottom" constant="361" id="LTg-Bl-vGU"/>
+                            <constraint firstItem="XiG-tF-lDR" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="28" id="bkO-Aa-a6s"/>
+                            <constraint firstItem="XiG-tF-lDR" firstAttribute="height" secondItem="KcL-gc-leH" secondAttribute="height" id="hMw-pj-c3M">
+                                <variation key="heightClass=compact-widthClass=compact" constant="9"/>
+                            </constraint>
+                            <constraint firstAttribute="trailingMargin" secondItem="KcL-gc-leH" secondAttribute="trailing" constant="98" id="mgk-bw-KPr"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="XiG-tF-lDR" secondAttribute="bottom" constant="132" id="ued-ho-zJg"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="0gw-1z-mbK"/>
+                                <exclude reference="AxB-8B-dbM"/>
+                                <exclude reference="GNW-eg-VxR"/>
+                                <exclude reference="HCB-gU-Vzn"/>
+                                <exclude reference="Kkk-o9-FXJ"/>
+                                <exclude reference="bkO-Aa-a6s"/>
+                                <exclude reference="hMw-pj-c3M"/>
+                                <exclude reference="ued-ho-zJg"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="0gw-1z-mbK"/>
+                                <include reference="AxB-8B-dbM"/>
+                                <include reference="GNW-eg-VxR"/>
+                                <include reference="HCB-gU-Vzn"/>
+                                <include reference="Kkk-o9-FXJ"/>
+                                <include reference="bkO-Aa-a6s"/>
+                                <include reference="hMw-pj-c3M"/>
+                                <include reference="ued-ho-zJg"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="311" y="397"/>
+            <point key="canvasLocation" x="310.5" y="396"/>
         </scene>
-        <!--View Controller-->
+        <!--Title-->
         <scene sceneID="RKX-oU-Z7h">
             <objects>
-                <viewController id="q1R-Gv-VZC" sceneMemberID="viewController">
+                <viewController id="q1R-Gv-VZC" customClass="Seleccion" customModule="Como_Doro" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="gk3-or-GYW"/>
                         <viewControllerLayoutGuide type="bottom" id="ecA-gN-isE"/>
@@ -63,14 +136,18 @@
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="COMO DORO" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3zb-D1-hgN">
                                 <rect key="frame" x="131" y="17" width="339" height="44"/>
-                                <animations/>
                                 <fontDescription key="fontDescription" name="Arial-ItalicMT" family="Arial" pointSize="36"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
+                                <variation key="heightClass=compact" misplaced="YES">
+                                    <rect key="frame" x="186" y="-82" width="230" height="41"/>
+                                </variation>
+                                <variation key="heightClass=regular" misplaced="YES">
+                                    <rect key="frame" x="186" y="119" width="230" height="41"/>
+                                </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gtq-G7-AyZ">
                                 <rect key="frame" x="36" y="28" width="46" height="30"/>
-                                <animations/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="15"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -80,22 +157,25 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="68M-Po-94e">
                                 <rect key="frame" x="179" y="372" width="242" height="84"/>
-                                <animations/>
                                 <fontDescription key="fontDescription" name="Arial-ItalicMT" family="Arial" pointSize="37"/>
                                 <state key="normal" title="OCIO">
                                     <color key="titleColor" red="0.015879159793257713" green="0.0077398088760674" blue="0.011830550618469715" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="JUE-nI-hRJ" kind="show" id="teU-4m-j9h"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6dh-mb-x41">
                                 <rect key="frame" x="179" y="208" width="242" height="64"/>
-                                <animations/>
                                 <fontDescription key="fontDescription" name="Arial-ItalicMT" family="Arial" pointSize="37"/>
                                 <state key="normal" title="TRABAJAR">
                                     <color key="titleColor" red="0.030891461297869682" green="0.046886056661605835" blue="0.059404440224170685" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="BKm-2G-32o" kind="show" id="HCH-Hp-ZVd"/>
+                                </connections>
                             </button>
                         </subviews>
-                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="3zb-D1-hgN" firstAttribute="centerX" secondItem="GIj-U7-XVt" secondAttribute="centerX" id="9pU-ha-dZk"/>
@@ -108,15 +188,16 @@
                             <constraint firstItem="6dh-mb-x41" firstAttribute="centerX" secondItem="GIj-U7-XVt" secondAttribute="centerX" id="sTd-kw-hXX"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="Title" id="5Je-YR-JV6"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0M4-h8-wi2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="959" y="397"/>
+            <point key="canvasLocation" x="981" y="397"/>
         </scene>
-        <!--View Controller-->
+        <!--Trabajar-->
         <scene sceneID="ToM-zx-2NI">
             <objects>
-                <viewController id="BKm-2G-32o" sceneMemberID="viewController">
+                <viewController id="BKm-2G-32o" customClass="Trabajar" customModule="Como_Doro" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="MUo-Tn-uWi"/>
                         <viewControllerLayoutGuide type="bottom" id="xoy-fH-0av"/>
@@ -125,25 +206,181 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="COMO DORO" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qbe-3x-uzz">
-                                <rect key="frame" x="131" y="20" width="339" height="44"/>
-                                <animations/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="COMO DORO" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qbe-3x-uzz">
+                                <rect key="frame" x="181" y="20" width="239" height="44"/>
                                 <fontDescription key="fontDescription" name="Arial-ItalicMT" family="Arial" pointSize="36"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=compact" misplaced="YES">
+                                    <rect key="frame" x="186" y="-79" width="230" height="41"/>
+                                </variation>
+                                <variation key="heightClass=regular" misplaced="YES">
+                                    <rect key="frame" x="186" y="122" width="230" height="41"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="00:00" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lHT-0n-csy">
+                                <rect key="frame" x="146" y="57" width="309" height="192"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="122"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=compact" misplaced="YES">
+                                    <rect key="frame" x="148" y="-19" width="306" height="144"/>
+                                </variation>
+                                <variation key="heightClass=regular" misplaced="YES">
+                                    <rect key="frame" x="148" y="182" width="306" height="143"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="TRABAJANDO" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ief-Ju-hkF">
+                                <rect key="frame" x="137" y="272" width="327" height="87"/>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="47"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=compact" misplaced="YES">
+                                    <rect key="frame" x="143" y="189" width="316" height="53"/>
+                                </variation>
+                                <variation key="heightClass=regular" misplaced="YES">
+                                    <rect key="frame" x="143" y="389" width="316" height="53"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="TRANSCURRIDO" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vby-xt-7OU">
+                                <rect key="frame" x="119" y="381" width="220" height="31"/>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="27"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a2y-Pd-Xjd">
+                                <rect key="frame" x="231" y="473" width="139" height="45"/>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="29"/>
+                                <state key="normal" title="DETENER">
+                                    <color key="titleColor" red="0.030891461297869682" green="0.046886056661605835" blue="0.059404440224170685" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CpT-WJ-BCi">
+                                <rect key="frame" x="353" y="379" width="75" height="33"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="qbe-3x-uzz" firstAttribute="centerX" secondItem="4Rx-Oa-BJs" secondAttribute="centerX" id="ODk-zE-Itg"/>
-                            <constraint firstItem="qbe-3x-uzz" firstAttribute="centerY" secondItem="4Rx-Oa-BJs" secondAttribute="centerY" constant="-258" id="spx-UJ-YQo"/>
+                            <constraint firstItem="Vby-xt-7OU" firstAttribute="centerX" secondItem="4Rx-Oa-BJs" secondAttribute="centerX" constant="-71" id="FrQ-HK-NsY"/>
+                            <constraint firstItem="a2y-Pd-Xjd" firstAttribute="centerX" secondItem="4Rx-Oa-BJs" secondAttribute="centerX" id="O26-Mz-Jii"/>
+                            <constraint firstItem="Vby-xt-7OU" firstAttribute="centerY" secondItem="4Rx-Oa-BJs" secondAttribute="centerY" constant="96.5" id="Py8-YV-oj6"/>
+                            <constraint firstItem="qbe-3x-uzz" firstAttribute="centerX" secondItem="4Rx-Oa-BJs" secondAttribute="centerX" id="Td9-bZ-f0D"/>
+                            <constraint firstItem="Ief-Ju-hkF" firstAttribute="centerX" secondItem="4Rx-Oa-BJs" secondAttribute="centerX" id="VOx-X7-Gdb"/>
+                            <constraint firstItem="a2y-Pd-Xjd" firstAttribute="centerY" secondItem="4Rx-Oa-BJs" secondAttribute="centerY" constant="195.5" id="XmM-HW-oA4"/>
+                            <constraint firstItem="lHT-0n-csy" firstAttribute="centerX" secondItem="4Rx-Oa-BJs" secondAttribute="centerX" id="Z65-nf-aIm"/>
+                            <constraint firstItem="CpT-WJ-BCi" firstAttribute="centerX" secondItem="4Rx-Oa-BJs" secondAttribute="centerX" constant="90.5" id="dpr-yb-kH6"/>
+                            <constraint firstItem="CpT-WJ-BCi" firstAttribute="centerY" secondItem="4Rx-Oa-BJs" secondAttribute="centerY" constant="95.5" id="fc1-T8-jMA"/>
+                            <constraint firstItem="Ief-Ju-hkF" firstAttribute="centerY" secondItem="4Rx-Oa-BJs" secondAttribute="centerY" constant="15.5" id="kWA-dW-CU9"/>
+                            <constraint firstItem="qbe-3x-uzz" firstAttribute="centerY" secondItem="4Rx-Oa-BJs" secondAttribute="centerY" constant="-258" id="rDX-aj-3KF"/>
+                            <constraint firstItem="lHT-0n-csy" firstAttribute="centerY" secondItem="4Rx-Oa-BJs" secondAttribute="centerY" constant="-147" id="tQa-x4-ZdX"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3mb-HB-a6U" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1626" y="397"/>
+        </scene>
+        <!--Ocio-->
+        <scene sceneID="uIF-FY-3x1">
+            <objects>
+                <viewController id="JUE-nI-hRJ" customClass="Ocio" customModule="Como_Doro" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bX5-gy-cBa"/>
+                        <viewControllerLayoutGuide type="bottom" id="Zeh-Cu-1ha"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="K7z-Kx-wcA">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VXj-Yh-hqg">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="COMO DORO" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q6q-1K-Fqn">
+                                        <rect key="frame" x="181" y="20" width="239" height="44"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="239" id="Seu-gB-qzG"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Arial-ItalicMT" family="Arial" pointSize="36"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IA4-5i-aZw">
+                                        <rect key="frame" x="146" y="57" width="309" height="192"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="309" id="WKM-ec-De4"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="122"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TRANSCURRIDO" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NGd-JQ-NEH">
+                                        <rect key="frame" x="119" y="381" width="220" height="31"/>
+                                        <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="27"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DKe-Nb-khm">
+                                        <rect key="frame" x="231" y="473" width="139" height="45"/>
+                                        <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="29"/>
+                                        <state key="normal" title="DETENER">
+                                            <color key="titleColor" red="0.030891461297869682" green="0.046886056661605835" blue="0.059404440224170685" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tbv-XK-CrU">
+                                        <rect key="frame" x="353" y="379" width="75" height="33"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="75" id="Zu7-kV-4xZ"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="OCIO" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SLr-uS-MPy">
+                                        <rect key="frame" x="237" y="257" width="126" height="87"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="126" id="TcU-pY-Hkm"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="47"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="tbv-XK-CrU" firstAttribute="centerY" secondItem="VXj-Yh-hqg" secondAttribute="centerY" constant="95.5" id="5Ju-1E-jzj"/>
+                                    <constraint firstItem="IA4-5i-aZw" firstAttribute="centerY" secondItem="VXj-Yh-hqg" secondAttribute="centerY" constant="-147" id="7MG-Qn-hv5"/>
+                                    <constraint firstItem="NGd-JQ-NEH" firstAttribute="centerY" secondItem="VXj-Yh-hqg" secondAttribute="centerY" constant="96.5" id="7aX-lp-Sr0"/>
+                                    <constraint firstItem="NGd-JQ-NEH" firstAttribute="centerX" secondItem="VXj-Yh-hqg" secondAttribute="centerX" constant="-71" id="7be-Ov-xss"/>
+                                    <constraint firstItem="tbv-XK-CrU" firstAttribute="leading" secondItem="NGd-JQ-NEH" secondAttribute="trailing" constant="14" id="DDu-cT-hd5"/>
+                                    <constraint firstItem="Q6q-1K-Fqn" firstAttribute="centerX" secondItem="VXj-Yh-hqg" secondAttribute="centerX" id="OR1-Uh-RHS"/>
+                                    <constraint firstItem="SLr-uS-MPy" firstAttribute="centerX" secondItem="VXj-Yh-hqg" secondAttribute="centerX" id="R5h-XD-4pV"/>
+                                    <constraint firstItem="DKe-Nb-khm" firstAttribute="centerX" secondItem="VXj-Yh-hqg" secondAttribute="centerX" id="UQY-7U-G8C"/>
+                                    <constraint firstItem="SLr-uS-MPy" firstAttribute="top" secondItem="IA4-5i-aZw" secondAttribute="bottom" constant="8" id="VDd-lM-Bkm"/>
+                                    <constraint firstItem="SLr-uS-MPy" firstAttribute="centerY" secondItem="VXj-Yh-hqg" secondAttribute="centerY" constant="0.5" id="dPG-rh-Oda"/>
+                                    <constraint firstItem="DKe-Nb-khm" firstAttribute="centerY" secondItem="VXj-Yh-hqg" secondAttribute="centerY" constant="195.5" id="jgR-Qm-htQ"/>
+                                    <constraint firstItem="tbv-XK-CrU" firstAttribute="top" secondItem="SLr-uS-MPy" secondAttribute="bottom" constant="35" id="ncc-wH-ylS"/>
+                                    <constraint firstItem="tbv-XK-CrU" firstAttribute="centerX" secondItem="VXj-Yh-hqg" secondAttribute="centerX" constant="90.5" id="oOd-Pb-2Qp"/>
+                                    <constraint firstItem="Q6q-1K-Fqn" firstAttribute="top" secondItem="VXj-Yh-hqg" secondAttribute="top" constant="20" id="pFN-hk-hRO"/>
+                                    <constraint firstItem="IA4-5i-aZw" firstAttribute="centerX" secondItem="VXj-Yh-hqg" secondAttribute="centerX" id="qDT-J4-7Mb"/>
+                                    <constraint firstItem="Q6q-1K-Fqn" firstAttribute="centerY" secondItem="VXj-Yh-hqg" secondAttribute="centerY" constant="-258" id="wSd-Tm-c1f"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="VXj-Yh-hqg" secondAttribute="trailing" id="HkB-pO-LMh"/>
+                            <constraint firstItem="VXj-Yh-hqg" firstAttribute="bottom" secondItem="Zeh-Cu-1ha" secondAttribute="top" id="hBE-kJ-51T"/>
+                            <constraint firstItem="VXj-Yh-hqg" firstAttribute="top" secondItem="K7z-Kx-wcA" secondAttribute="top" id="hQ8-ZV-GBE"/>
+                            <constraint firstItem="VXj-Yh-hqg" firstAttribute="leading" secondItem="K7z-Kx-wcA" secondAttribute="leading" id="ojb-VT-CvN"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="K2B-i4-iXj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2269" y="391"/>
         </scene>
     </scenes>
 </document>

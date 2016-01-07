@@ -1,5 +1,5 @@
 //
-//  Seleccion.swift
+//  Ocio.swift
 //  Como_Doro
 //
 //  Created by  on 7/1/16.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class Seleccion: UIViewController {
+class Ocio: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
