@@ -14,6 +14,7 @@
 		FF32ABF61C233962005DBEA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF32ABF41C233962005DBEA7 /* LaunchScreen.storyboard */; };
 		FF32AC011C233962005DBEA7 /* Como_DoroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF32AC001C233962005DBEA7 /* Como_DoroTests.swift */; };
 		FF32AC0C1C233962005DBEA7 /* Como_DoroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF32AC0B1C233962005DBEA7 /* Como_DoroUITests.swift */; };
+		FFA0850E1C51736200756D2E /* tomato.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FFA0850D1C51736200756D2E /* tomato.jpg */; };
 		FFB767921C3EF01900940EFD /* Seleccion.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB767911C3EF01900940EFD /* Seleccion.swift */; };
 		FFB767941C3EF07E00940EFD /* Trabajar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB767931C3EF07E00940EFD /* Trabajar.swift */; };
 		FFB767961C3EF18600940EFD /* Ocio.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB767951C3EF18600940EFD /* Ocio.swift */; };
@@ -50,6 +51,7 @@
 		FF32AC071C233962005DBEA7 /* Como_DoroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Como_DoroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF32AC0B1C233962005DBEA7 /* Como_DoroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Como_DoroUITests.swift; sourceTree = "<group>"; };
 		FF32AC0D1C233962005DBEA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFA0850D1C51736200756D2E /* tomato.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = tomato.jpg; path = ../../../../Downloads/tomato.jpg; sourceTree = "<group>"; };
 		FFB767911C3EF01900940EFD /* Seleccion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Seleccion.swift; sourceTree = "<group>"; };
 		FFB767931C3EF07E00940EFD /* Trabajar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Trabajar.swift; sourceTree = "<group>"; };
 		FFB767951C3EF18600940EFD /* Ocio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ocio.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 				FF32ABEB1C233962005DBEA7 /* AppDelegate.swift */,
 				FF32ABED1C233962005DBEA7 /* ViewController.swift */,
 				FF32ABEF1C233962005DBEA7 /* Main.storyboard */,
+				FFA0850D1C51736200756D2E /* tomato.jpg */,
 				FFB767951C3EF18600940EFD /* Ocio.swift */,
 				FFB767931C3EF07E00940EFD /* Trabajar.swift */,
 				FF32ABF21C233962005DBEA7 /* Assets.xcassets */,
@@ -239,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF32ABF61C233962005DBEA7 /* LaunchScreen.storyboard in Resources */,
+				FFA0850E1C51736200756D2E /* tomato.jpg in Resources */,
 				FF32ABF31C233962005DBEA7 /* Assets.xcassets in Resources */,
 				FF32ABF11C233962005DBEA7 /* Main.storyboard in Resources */,
 			);
