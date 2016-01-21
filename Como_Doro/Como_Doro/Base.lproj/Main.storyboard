@@ -335,7 +335,9 @@
                                     <constraint firstAttribute="height" constant="25" id="jT4-8Q-xSo"/>
                                     <constraint firstAttribute="height" constant="58" id="stk-cm-6yq"/>
                                     <constraint firstAttribute="height" constant="58" id="wJD-EQ-ise"/>
-                                    <constraint firstAttribute="width" constant="156" id="zok-MW-i3m"/>
+                                    <constraint firstAttribute="width" constant="156" id="zok-MW-i3m">
+                                        <variation key="heightClass=regular-widthClass=compact" constant="195"/>
+                                    </constraint>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Arial-ItalicMT" family="Arial" pointSize="37"/>
                                 <state key="normal" title="OCIO">
@@ -433,7 +435,9 @@
                             <constraint firstItem="hfJ-sW-fDf" firstAttribute="leading" secondItem="GIj-U7-XVt" secondAttribute="leading" id="B8S-95-8r6"/>
                             <constraint firstItem="hfJ-sW-fDf" firstAttribute="top" secondItem="gk3-or-GYW" secondAttribute="bottom" id="BRC-ib-cyZ"/>
                             <constraint firstItem="6dh-mb-x41" firstAttribute="top" secondItem="hfJ-sW-fDf" secondAttribute="bottom" constant="60" id="CCI-GB-GxE"/>
-                            <constraint firstItem="ecA-gN-isE" firstAttribute="top" secondItem="68M-Po-94e" secondAttribute="bottom" constant="169" id="Cbi-vt-2ph"/>
+                            <constraint firstItem="ecA-gN-isE" firstAttribute="top" secondItem="68M-Po-94e" secondAttribute="bottom" constant="169" id="Cbi-vt-2ph">
+                                <variation key="heightClass=regular-widthClass=compact" constant="267"/>
+                            </constraint>
                             <constraint firstAttribute="trailing" secondItem="hfJ-sW-fDf" secondAttribute="trailing" id="DAf-oo-MmA"/>
                             <constraint firstItem="68M-Po-94e" firstAttribute="top" secondItem="6dh-mb-x41" secondAttribute="bottom" constant="55" id="DRE-Hw-M6k"/>
                             <constraint firstItem="6dh-mb-x41" firstAttribute="centerX" secondItem="68M-Po-94e" secondAttribute="centerX" id="DbB-xK-IZe"/>
@@ -449,12 +453,16 @@
                             </constraint>
                             <constraint firstItem="68M-Po-94e" firstAttribute="top" secondItem="6dh-mb-x41" secondAttribute="bottom" constant="85" id="MMn-PQ-oyg"/>
                             <constraint firstAttribute="trailingMargin" secondItem="6dh-mb-x41" secondAttribute="trailing" constant="31" id="NP4-hk-Mtv"/>
-                            <constraint firstItem="68M-Po-94e" firstAttribute="centerX" secondItem="6dh-mb-x41" secondAttribute="centerX" id="NmP-7y-qSe"/>
+                            <constraint firstItem="68M-Po-94e" firstAttribute="centerX" secondItem="6dh-mb-x41" secondAttribute="centerX" id="NmP-7y-qSe">
+                                <variation key="heightClass=regular-widthClass=compact" constant="-10"/>
+                            </constraint>
                             <constraint firstItem="6dh-mb-x41" firstAttribute="centerX" secondItem="hfJ-sW-fDf" secondAttribute="centerX" id="QoK-EE-hJs"/>
                             <constraint firstItem="68M-Po-94e" firstAttribute="centerX" secondItem="6dh-mb-x41" secondAttribute="centerX" id="S0f-Ty-7CF"/>
                             <constraint firstItem="68M-Po-94e" firstAttribute="top" secondItem="6dh-mb-x41" secondAttribute="bottom" constant="55" id="SAo-bf-uyO"/>
                             <constraint firstAttribute="trailing" secondItem="hfJ-sW-fDf" secondAttribute="trailing" id="SPe-vR-DiB"/>
-                            <constraint firstItem="6dh-mb-x41" firstAttribute="leading" secondItem="68M-Po-94e" secondAttribute="leading" id="Sdj-ak-9s2"/>
+                            <constraint firstItem="6dh-mb-x41" firstAttribute="leading" secondItem="68M-Po-94e" secondAttribute="leading" id="Sdj-ak-9s2">
+                                <variation key="heightClass=regular-widthClass=compact" constant="29"/>
+                            </constraint>
                             <constraint firstItem="68M-Po-94e" firstAttribute="width" secondItem="6dh-mb-x41" secondAttribute="width" id="T2x-IH-GPk"/>
                             <constraint firstItem="6dh-mb-x41" firstAttribute="centerX" secondItem="hfJ-sW-fDf" secondAttribute="centerX" id="TH5-Fn-W2A"/>
                             <constraint firstItem="hfJ-sW-fDf" firstAttribute="top" secondItem="gk3-or-GYW" secondAttribute="bottom" constant="8" id="Tpt-hG-MrZ"/>
@@ -483,14 +491,18 @@
                             <constraint firstItem="hfJ-sW-fDf" firstAttribute="top" secondItem="gk3-or-GYW" secondAttribute="bottom" id="gkx-aX-vRj">
                                 <variation key="heightClass=compact-widthClass=regular" constant="-21"/>
                             </constraint>
-                            <constraint firstItem="68M-Po-94e" firstAttribute="top" secondItem="6dh-mb-x41" secondAttribute="bottom" constant="87" id="iaw-Wz-bCT"/>
+                            <constraint firstItem="68M-Po-94e" firstAttribute="top" secondItem="6dh-mb-x41" secondAttribute="bottom" constant="87" id="iaw-Wz-bCT">
+                                <variation key="heightClass=regular-widthClass=compact" constant="120"/>
+                            </constraint>
                             <constraint firstItem="ecA-gN-isE" firstAttribute="top" secondItem="68M-Po-94e" secondAttribute="bottom" constant="82" id="jDC-5X-vZb"/>
                             <constraint firstItem="6dh-mb-x41" firstAttribute="leading" secondItem="GIj-U7-XVt" secondAttribute="leadingMargin" constant="37" id="juL-Vu-4GM"/>
                             <constraint firstItem="6dh-mb-x41" firstAttribute="leading" secondItem="GIj-U7-XVt" secondAttribute="leadingMargin" constant="66" id="kBe-fR-lEH"/>
                             <constraint firstItem="6dh-mb-x41" firstAttribute="leading" secondItem="GIj-U7-XVt" secondAttribute="leadingMargin" constant="47" id="kZ9-xv-fCf"/>
                             <constraint firstItem="68M-Po-94e" firstAttribute="leading" secondItem="6dh-mb-x41" secondAttribute="leading" id="lLY-mT-14J"/>
                             <constraint firstItem="ecA-gN-isE" firstAttribute="top" secondItem="68M-Po-94e" secondAttribute="bottom" constant="169" id="ltg-Ju-Mag"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="6dh-mb-x41" secondAttribute="trailing" constant="93" id="m6t-wD-hMS"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="6dh-mb-x41" secondAttribute="trailing" constant="93" id="m6t-wD-hMS">
+                                <variation key="heightClass=regular-widthClass=compact" constant="101"/>
+                            </constraint>
                             <constraint firstItem="hfJ-sW-fDf" firstAttribute="leading" secondItem="GIj-U7-XVt" secondAttribute="leading" id="oM5-wu-BSf"/>
                             <constraint firstItem="68M-Po-94e" firstAttribute="top" secondItem="6dh-mb-x41" secondAttribute="bottom" constant="79" id="pEK-68-7GR"/>
                             <constraint firstItem="ecA-gN-isE" firstAttribute="top" secondItem="68M-Po-94e" secondAttribute="bottom" constant="169" id="pIK-1l-ldg"/>
